@@ -44,7 +44,7 @@ function About() {
             flexDirection: "column",
           }}
         >
-          <Grid item xs={6} md={9} sx={{ pb: 4 }}>
+          <Grid item xs={6} md={10} sx={{ pb: 4 }}>
             <Typography
               sx={{ fontWeight: "bold", fontSize: { xs: "20px", md: "28px" } }}
             >
@@ -104,9 +104,11 @@ function About() {
             xs={6}
             sx={{
               fontSize: { xs: "18px" },
-              pl: { xs: 0, md: 25 },
+             
+              pl: { xs: 0, md: 37 },
               pt: 5,
               pb: { xs: 10, md: 40 },
+              
             }}
           >
             <Button
@@ -141,7 +143,7 @@ function About() {
           <Grid
             item
             xs={12}
-            md={6}
+            md={7}
             sx={{
               display: "flex",
               justifyContent: "space-between",
@@ -256,7 +258,7 @@ function About() {
           <Grid
             item
             xs={5}
-            md={4}
+            md={6}
             sx={{
               display: "flex",
               justifyContent: "space-between",
@@ -288,11 +290,24 @@ function About() {
                 bgcolor: "gray",
               }}
             >
-              Bootstrap
+           Material UI
+            </Typography>
+
+
+            <Typography
+              sx={{
+                fontWeight: "bold",
+                fontSize: { xs: "10px", md: "15px" },
+                textAlign: "center",
+                border: "1px solid black",
+                padding: { xs: "9px 10px", md: "8px 15px" },
+                borderRadius: "5px",
+                bgcolor: "gray",
+              }}
+            >
+         Bootstrap
             </Typography>
           </Grid>
-
-          
         </Grid>
       </Grid>
     </Grid>

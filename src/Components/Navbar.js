@@ -91,7 +91,7 @@ export default function Navbar() {
         }}
       >
         <img
-          src=""
+          src="blob:https://web.whatsapp.com/dfeeb14f-318a-446e-9324-f41a0b5d4f16"
           alt="not found"
           style={{ height: "100%", width: "15%" }}
         />

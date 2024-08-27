@@ -13,7 +13,7 @@ function Fotter() {
       xs={12}
       sx={{
         bgcolor: "black",
-        height: {xs:"50vh",md:"35vh"},
+        height: {xs:"50vh",md:"45vh"},
       }}
     >
       <Grid
