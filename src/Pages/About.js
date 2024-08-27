@@ -1,6 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
-import Button from "@mui/material/Button";
+import { Grid, Typography, Button } from "@mui/material";
 
 function About() {
   return (
@@ -27,8 +26,8 @@ function About() {
               pt: 2,
             }}
           >
-            Here you will find more information about me,what i do, and my
-            current skills mostly in terms of programming and technology
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology.
           </Typography>
         </Grid>
       </Grid>
@@ -52,7 +51,7 @@ function About() {
             </Typography>
           </Grid>
 
-          <Grid item xs={12} md={10} sx={{ textAlign: { xs: "left" } }}>
+          <Grid item xs={12} md={10} sx={{ textAlign: "left" }}>
             <Typography
               sx={{
                 fontSize: { xs: "15px", md: "18px" },
@@ -61,13 +60,13 @@ function About() {
               }}
             >
               I'm a Frontend Focused Web Developer building and managing the
-              Front-end of Websites and Web Applications that leads to the
+              front-end of websites and web applications that lead to the
               success of the overall product. Check out some of my work in the
               Projects section.
             </Typography>
           </Grid>
 
-          <Grid item xs={12} md={10} sx={{ textAlign: { xs: "left" } }}>
+          <Grid item xs={12} md={10} sx={{ textAlign: "left" }}>
             <Typography
               sx={{
                 fontSize: { xs: "15px", md: "18px" },
@@ -77,14 +76,13 @@ function About() {
               }}
             >
               I also like sharing content related to the stuff that I have
-              learned over the years in Web Development so it can help other
-              people of the Dev Community. Feel free to Connect or Follow me on
-              my Linkedin and Instagram where I post useful content related to
-              Web Development and Programming
+              learned over the years in Web Development to help others in the
+              Dev Community. Feel free to connect or follow me on my LinkedIn
+              and Instagram where I post useful content related to Web Development and Programming.
             </Typography>
           </Grid>
 
-          <Grid item xs={12} md={10} sx={{ textAlign: { xs: "left" } }}>
+          <Grid item xs={12} md={10} sx={{ textAlign: "left" }}>
             <Typography
               sx={{
                 fontSize: { xs: "15px", md: "18px" },
@@ -93,9 +91,9 @@ function About() {
                 lineHeight: { xs: "1.5", md: "" },
               }}
             >
-              I'm open to Job opportunities where I can contribute, learn and
+              I'm open to job opportunities where I can contribute, learn, and
               grow. If you have a good opportunity that matches my skills and
-              experience then don't hesitate to contact me.
+              experience, then don't hesitate to contact me.
             </Typography>
           </Grid>
 
@@ -104,11 +102,9 @@ function About() {
             xs={6}
             sx={{
               fontSize: { xs: "18px" },
-             
               pl: { xs: 0, md: 37 },
               pt: 5,
               pb: { xs: 10, md: 40 },
-              
             }}
           >
             <Button
@@ -133,7 +129,7 @@ function About() {
                 fontWeight: "bold",
                 fontSize: { xs: "23px", md: "30px" },
                 textAlign: "left",
-                pb: { xs: 3, md: 0 }, 
+                pb: { xs: 3, md: 0 },
                 pl: { xs: 2, md: 0 },
               }}
             >
@@ -147,8 +143,8 @@ function About() {
             sx={{
               display: "flex",
               justifyContent: "space-between",
-              margin:{xs:"40px 55px 0 15px"},
-                            pt: { xs: 0, md: 2 },
+              margin: { xs: "40px 55px 0 15px" },
+              pt: { xs: 0, md: 2 },
             }}
           >
             <Typography
@@ -213,7 +209,8 @@ function About() {
               display: "flex",
               justifyContent: "space-between",
               pt: { xs: 0, md: 2 },
-              margin:{xs:"20px 80px 0 15px",md:""}}}
+              margin: { xs: "20px 80px 0 15px" },
+            }}
           >
             <Typography
               sx={{
@@ -255,6 +252,7 @@ function About() {
               Responsive Design
             </Typography>
           </Grid>
+
           <Grid
             item
             xs={5}
@@ -263,7 +261,8 @@ function About() {
               display: "flex",
               justifyContent: "space-between",
               pt: { xs: 0, md: 2 },
-              margin:{xs:"20px 80px 0 15px",}}}
+              margin: { xs: "20px 80px 0 15px" },
+            }}
           >
             <Typography
               sx={{
@@ -276,9 +275,8 @@ function About() {
                 bgcolor: "gray",
               }}
             >
-              Terminal
+              Material UI
             </Typography>
-
             <Typography
               sx={{
                 fontWeight: "bold",
@@ -290,22 +288,7 @@ function About() {
                 bgcolor: "gray",
               }}
             >
-           Material UI
-            </Typography>
-
-
-            <Typography
-              sx={{
-                fontWeight: "bold",
-                fontSize: { xs: "10px", md: "15px" },
-                textAlign: "center",
-                border: "1px solid black",
-                padding: { xs: "9px 10px", md: "8px 15px" },
-                borderRadius: "5px",
-                bgcolor: "gray",
-              }}
-            >
-         Bootstrap
+              Bootstrap
             </Typography>
           </Grid>
         </Grid>
@@ -315,3 +298,4 @@ function About() {
 }
 
 export default About;
+
