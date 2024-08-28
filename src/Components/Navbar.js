@@ -30,14 +30,6 @@ const AppBar = styled(MuiAppBar, {
   }),
 }));
 
-const DrawerHeader = styled('div')(({ theme }) => ({
-  display: 'flex',
-  alignItems: 'center',
-  padding: theme.spacing(0, 1),
-  ...theme.mixins.toolbar,
-  justifyContent: 'flex-start',
-}));
-
 export default function Navbar() {
   const [open, setOpen] = React.useState(false);
 
@@ -178,3 +170,4 @@ export default function Navbar() {
     </Box>
   );
 }
+
