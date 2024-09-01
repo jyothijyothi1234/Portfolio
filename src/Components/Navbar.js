@@ -10,7 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Grid } from '@mui/material';
 import { NavLink } from 'react-router-dom';
-
+import imageprofile from "../images/imageprofile.png"
 const drawerWidth = 240;
 
 const AppBar = styled(MuiAppBar, {
@@ -60,9 +60,9 @@ export default function Navbar() {
               }}
             >
               <img
-                src="blob:https://web.whatsapp.com/dfeeb14f-318a-446e-9324-f41a0b5d4f16"
+                src="./imageprofile.png"
                 alt="not found"
-                style={{ height: "100%", width: "15%" }}
+                style={{ height: "100%", width: "30%",borderRadius:"10px" }}
               />
               <Typography
                 sx={{
