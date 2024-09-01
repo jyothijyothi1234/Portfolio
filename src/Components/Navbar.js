@@ -10,7 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Grid } from '@mui/material';
 import { NavLink } from 'react-router-dom';
-import imageprofile from "../images/imageprofile.png"
+
 const drawerWidth = 240;
 
 const AppBar = styled(MuiAppBar, {
@@ -60,7 +60,7 @@ export default function Navbar() {
               }}
             >
               <img
-                src="./imageprofile.png"
+                src="/imageprofile.png"
                 alt="not found"
                 style={{ height: "100%", width: "30%",borderRadius:"10px" }}
               />
