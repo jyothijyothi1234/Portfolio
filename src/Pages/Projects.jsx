@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react'; 
 import { Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import CeramicsStudio from "../images/ceramicstudio.png"
