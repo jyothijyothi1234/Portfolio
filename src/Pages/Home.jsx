@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
-import Banner from '../Images/BackgroundImage.jpg';
+import Banner from "../images/background.png"
 import About from "./About";
 import Projects  from "./Projects";
 import Contact  from "./Contact";

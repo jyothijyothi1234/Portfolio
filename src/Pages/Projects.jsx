@@ -1,16 +1,16 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
-import CeramicsStudio from "../Images/Ceramics Studio.png"
-import FoodWebsite from "../Images/FoodWebsite.png"
-import KFCImage from "../Images/KFC Image.png"
-import ShopInStyle from "../Images/Shop in Style.png"
-import irakiTechnologies from "../Images/irakiwebsite.png"
-import Flipkart from "../Images/Flipkart.png"
-import PaintingLogo from "../Images/PaintingLogo.png"
-import Urbanrise from "../Images/Urbanrise.png"
-import EkartImage from "../Images/EkartImage.png"
-import EcommerceWebsite from "../Images/EcommerceWebsite.jpg"
+import CeramicsStudio from "../images/ceramicstudio.png"
+import FoodWebsite from "../images/foodwebsite.png"
+import KFCImage from "../images/kfcimage.png"
+import ShopInStyle from "../images/shopstyle.png"
+import irakiTechnologies from "../images/irakiwebsite.png"
+import Flipkart from "../images/flipkart.png"
+import PaintingLogo from "../images/paintinglogo.png"
+import Urbanrise from "../images/urbanrise.png"
+import EkartImage from "../images/ekartimage.png"
+import EcommerceWebsite from "../images/ecommercewebsite.jpg"
 function Projects() {
   return (
     <Grid container item xs={12} sx={{  pt: {xs:50,md:15},mb:5 }}>
