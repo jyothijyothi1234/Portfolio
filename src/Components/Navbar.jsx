@@ -58,7 +58,7 @@ export default function Navbar() {
               }}
             >
               <img
-                src="/imager.png"
+                src={imager}
                 alt="not found"
                 style={{ height: "100%", width: "30%",borderRadius:"10px" }}
               />

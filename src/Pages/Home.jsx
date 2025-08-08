@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Box, Grid, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
-import background from '../images/background.png'
+import backimages from '../images/background.png'
 import About from "./About";
 import Projects  from "./Projects";
 import Contact  from "./Contact";
@@ -14,7 +14,7 @@ function Home() {
       item
       xs={12}
       sx={{
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${backimages})`,
         height: { xs: "70vh", md: "100vh" },
         backgroundSize: "cover",
         display: "flex",
